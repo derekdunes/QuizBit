@@ -1,0 +1,40 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+
+    repositories {
+        google()
+        jcenter()
+//        maven {
+//            url  "https://chartboostmobile.bintray.com/Chartboost"
+//        }
+//        maven {
+//            ​url  "https://adcolony.bintray.com/AdColony"
+//        }
+//        maven {
+//            url "http://dl.bintray.com/ironsource-mobile/android-adapters"
+//        }
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.1.3'
+        classpath 'com.google.gms:google-services:4.0.0'
+
+
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+allprojects {
+    repositories {
+        flatDir {
+            dirs 'libs'
+        }
+        google()
+        jcenter()
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

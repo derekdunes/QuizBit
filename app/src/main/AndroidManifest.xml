@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+package="com.dunesart.android.bitquiz">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+<application
+    android:networkSecurityConfig="@xml/network_security_config"
+    android:allowBackup="true"
+    android:icon="@mipmap/ic_launcher"
+    android:label="@string/app_name"
+    android:roundIcon="@mipmap/ic_launcher_round"
+    android:supportsRtl="true"
+    android:theme="@style/AppTheme">
+    <activity android:name=".SplashScreen">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+    </activity>
+
+    <!--<activity-->
+        <!--android:name="com.adcolony.sdk.AdColonyInterstitialActivity"-->
+        <!--android:configChanges="keyboardHidden|orientation|screenSize"-->
+        <!--android:hardwareAccelerated="true" />-->
+
+    <!--<activity android:name="com.adcolony.sdk.AdColonyAdViewActivity"-->
+        <!--android:configChanges="keyboardHidden|orientation|screenSize"-->
+        <!--android:hardwareAccelerated="true"/>-->
+
+    <!--<activity android:name="com.google.android.gms.ads.AdActivity"-->
+        <!--android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:theme="@android:style/Theme.Translucent" />-->
+
+    <!--<activity-->
+        <!--android:name="com.chartboost.sdk.CBImpressionActivity"-->
+        <!--android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"-->
+        <!--android:configChanges="keyboardHidden|orientation|screenSize"-->
+        <!--android:excludeFromRecents="true"-->
+        <!--android:hardwareAccelerated="true"/>-->
+
+    <activity android:name="com.dunesart.android.bitquiz.Home" />
+    <activity android:name="com.dunesart.android.bitquiz.Start" />
+    <activity android:name="com.dunesart.android.bitquiz.Playing" />
+    <activity android:name="com.dunesart.android.bitquiz.Done" />
+    <activity android:name="com.dunesart.android.bitquiz.ScoreDetail"/>
+    <activity android:name="com.dunesart.android.bitquiz.account"/>
+    <activity android:name="com.dunesart.android.bitquiz.MainActivity"/>
+    <activity android:name="com.dunesart.android.bitquiz.SignupActivity"/>
+    <activity android:name="com.dunesart.android.bitquiz.ResetPasswordActivity"/>
+    <activity android:name="com.dunesart.android.bitquiz.LoginActivity"/>
+    <activity android:name=".CashOut"/>
+
+    <!--<meta-data android:name="com.google.android.gms.ads.APPLICATION_ID"-->
+        <!--android:value="[ADMOB_APP_ID]"/>-->
+
+</application>
+
+</manifest>

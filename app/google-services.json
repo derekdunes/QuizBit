@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "387631199895",
+    "firebase_url": "https://quizme-c27c2.firebaseio.com",
+    "project_id": "quizme-c27c2",
+    "storage_bucket": "quizme-c27c2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:387631199895:android:d2ae0c03987bbd88411bd2",
+        "android_client_info": {
+          "package_name": "com.dunesart.android.bitquiz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "387631199895-utcio0ebgot4c8h358hrqqc5r6qdll9j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCoyqilt6QGsMLRlu6qf2tF_ezyp_1Bkeo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "387631199895-utcio0ebgot4c8h358hrqqc5r6qdll9j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
